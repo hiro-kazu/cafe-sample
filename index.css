@@ -40,6 +40,6 @@
   top: 0; /* 上端に配置 */
   left: 0; /* 左端に配置 */
   width: 100vw; /*
-  z-index: -3;
+  z-index: 1;
 }
 
