@@ -1,15 +1,16 @@
+/* ヘッダーメニューのスタイル */
 .menu-container {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 20px;
   padding: 10px;
-  background-color: #fff; /* ヘッダーの背景色を追加 */
+  background-color: #fff; /* ヘッダーの背景色 */
   position: fixed; /* ヘッダーを固定 */
   top: 0;
   right: 0;
   width: 100%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* ヘッダーに影を追加 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* ヘッダーの影 */
 }
 
 .menu-item {
@@ -23,12 +24,13 @@
   cursor: pointer;
 }
 
+/* 見出しのスタイル */
 .main-heading {
   text-align: center; /* 中央揃え */
-  font-family: 'Merriweather', serif; /* フォントの変更 */
-  font-size: 80px; /* フォントサイズを大きく */
-  margin: 40px 0; /* 上下のマージンを追加 */
-  line-height: 1.2; /* 行間を調整 */
+  font-family: 'Merriweather', serif; /* フォント */
+  font-size: 80px; /* フォントサイズ */
+  margin: 40px 0; /* 上下のマージン */
+  line-height: 1.2; /* 行間の調整 */
 }
 
 .main-heading p {
