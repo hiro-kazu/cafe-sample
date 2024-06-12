@@ -1,3 +1,23 @@
+.menu-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px; /* 各メニュー項目間の間隔を調整 */
+  padding: 10px; /* 必要に応じて調整 */
+}
+
+.menu-item {
+  font-family: 'Roboto', sans-serif; /* 必要に応じてフォントを調整 */
+  font-size: 16px; /* 必要に応じてフォントサイズを調整 */
+  color: #333; /* 必要に応じてテキストの色を調整 */
+}
+
+.menu-item.sign-in {
+  font-weight: bold; /* Sign in の強調 */
+  cursor: pointer;
+}
+
+
 .history {
   position: relative;
   line-height: 22px;
