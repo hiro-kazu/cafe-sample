@@ -22,3 +22,15 @@
   font-weight: bold;
   cursor: pointer;
 }
+
+.main-heading {
+  text-align: center; /* 中央揃え */
+  font-family: 'Merriweather', serif; /* フォントの変更 */
+  font-size: 36px; /* フォントサイズを大きく */
+  margin: 40px 0; /* 上下のマージンを追加 */
+  line-height: 1.2; /* 行間を調整 */
+}
+
+.main-heading p {
+  margin: 0; /* p要素のデフォルトマージンを削除 */
+}
