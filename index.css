@@ -2,17 +2,23 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  gap: 20px; /* 各メニュー項目間の間隔を調整 */
-  padding: 10px; /* 必要に応じて調整 */
+  gap: 20px;
+  padding: 10px;
+  background-color: #fff; /* ヘッダーの背景色を追加 */
+  position: fixed; /* ヘッダーを固定 */
+  top: 0;
+  right: 0;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* ヘッダーに影を追加 */
 }
 
 .menu-item {
-  font-family: 'Roboto', sans-serif; /* 必要に応じてフォントを調整 */
-  font-size: 16px; /* 必要に応じてフォントサイズを調整 */
-  color: #333; /* 必要に応じてテキストの色を調整 */
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #333;
 }
 
 .menu-item.sign-in {
-  font-weight: bold; /* Sign in の強調 */
+  font-weight: bold;
   cursor: pointer;
 }
