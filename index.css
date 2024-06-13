@@ -36,10 +36,9 @@
 }
 
 .jonas-jacobsson-1itkofjvj6e-un-icon {
-  position: absolute; /* 画像を絶対位置に設定 */
-  top: 300px; /* 上端に配置 */
-  left: 0; /* 左端に配置 */
-  width: 100vw;
-  z-index: -1; /* 他の要素よりも背面に表示 */
+  display: block;
+  margin: 0 auto;
+  width: 100%; /* 画像の幅を設定 */
+  max-width: 1200px; /* 画像の最大幅を設定 */
+  height: auto;
 }
-
