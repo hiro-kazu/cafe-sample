@@ -27,7 +27,7 @@
   text-align: center; /* 中央揃え */
   font-family: 'Merriweather', serif; /* フォントの変更 */
   font-size: 80px; /* フォントサイズを大きく */
-  margin: 0 0; /* 上下のマージンを追加 */
+  margin: 80px 0; /* 上下のマージンを追加 */
   line-height: 1.2; /* 行間を調整 */
 }
 
